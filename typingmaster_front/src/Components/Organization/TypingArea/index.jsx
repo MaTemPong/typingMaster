@@ -1,0 +1,13 @@
+import React from "react";
+import * as S from './styled'
+
+const TypingArea = () => {
+    return(
+        <S.TypingAreaWrap>
+            <input value={'동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세'}/>
+            <input value={'무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세'}/>
+        </S.TypingAreaWrap>
+    )
+}
+
+export default TypingArea;
